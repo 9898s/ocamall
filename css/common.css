@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+legend {
+    display: none;
+}
+
+body {
+    font-size: 12px;
+    color: #1c1c1c;
+    line-height: 1.25;
+}
+
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
