@@ -9,7 +9,6 @@
 .header_box_01_inner {
     width: 1200px;
     margin: 0 auto;
-    /* background-color: red; */
     position: relative;
     padding: 40px 0;
 }
@@ -18,7 +17,6 @@
 .header_logo_area {
     width: 192px;
     overflow: hidden;
-    /* background-color: lightblue; */
 }
 /* header_logo_area 영역 종료 */
 
@@ -29,7 +27,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    /* background-color: lightgoldenrodyellow; */
 }
 
 .header_search_area input {
@@ -92,7 +89,6 @@
 .header_box_02_inner {
     width: 1200px;
     margin: 0 auto;
-    /* background-color: red; */
 }
 
 /* all_menu_box 영역 시작 */
@@ -114,7 +110,8 @@
 
 .header_gnb_area li {
     float: left;
-    width: 143px;
+    width: 127px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 .header_gnb_area li a {
@@ -122,7 +119,6 @@
     width: 100%;
     line-height: 50px;
     text-align: center;
-    /* background-color: blue; */
 }
 
 .header_gnb_area li:hover {
