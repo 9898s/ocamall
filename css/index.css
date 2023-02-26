@@ -237,6 +237,7 @@
 
 .review_id {
     margin-top: 5px;
+    padding-bottom: 3px;
     color: #aaa;
     border-bottom: 1px solid #efefef;
 }

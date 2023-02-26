@@ -111,7 +111,7 @@
 .header_gnb_area li {
     float: left;
     width: 127px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
 }
 
 .header_gnb_area li a {
@@ -122,7 +122,7 @@
 }
 
 .header_gnb_area li:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
 }
 /* header_gnb_area 영역 종료 */
 /* header_box_02 영역 종료 */
