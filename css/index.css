@@ -1,5 +1,6 @@
+/* main_category 영역 시작 */
 .main_category {
-    margin: 30px 0 50px 0;
+    margin: 30px 0 70px 0;
 }
 
 .main_category_inner {
@@ -20,7 +21,7 @@
     border-bottom: 1px solid #efefef;
 }
 
-.main_category_inner li:nth-child(1), li:nth-child(7) {
+.main_category_inner li:nth-child(1), .main_category_inner li:nth-child(7) {
     border-left: 1px solid #efefef;
 }
 
@@ -35,3 +36,229 @@
 .main_category_inner li img {
     margin-top: 5px;
 }
+/* main_category 영역 종료 */
+
+/* product_inner 영역 시작 */
+.product_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.product_inner h2 {
+    margin-bottom: 30px;
+}
+
+.product_inner h2 a {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.product_inner h2 a span {
+    margin-right: 10px;
+}
+
+.product_inner ul li {
+    width: 272.5px;
+    margin: 0 30px 50px 0;
+    float: left;
+}
+
+.product_inner ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.product_image img {
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+}
+
+.brand_title {
+    margin: 13px 0;
+}
+
+.product_hashtag {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product_price {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.discount_percent {
+    position: absolute;
+    color: #f00;
+    top: 20px;
+    left: 0;
+}
+
+.price_discount {
+    display: block;
+    text-decoration: line-through;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.product_basket {
+    padding: 5px 6px;
+    display: inline-block;
+    border-right: 1px solid #efefef;
+}
+
+.product_basket img {
+    padding-top: 1px;
+}
+
+.product_icon {
+    margin-top: 7px;
+}
+
+.product_review {
+    padding-left: 10px;
+}
+/* product_inner 영역 종료 */
+
+/* focus_on 영역 시작 */
+.focus_on {
+    margin-bottom: 100px;
+}
+
+.focus_on_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.focus_on_inner h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.focus_on_inner li {
+    float: left;
+    margin-right: 30px;
+}
+
+.focus_on_inner li:last-child {
+    margin-right: 0;
+}
+
+.focus_on_img_area {
+    margin-bottom: 20px;
+}
+
+.focus_on_inner li img {
+    border-radius: 10px;
+}
+
+.focus_on h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.focus_on p {
+    text-align: center;
+    font-size: 13px;
+}
+/* focus_on 영역 종료 */
+
+/* photo_review 영역 시작 */
+.photo_review {
+    margin-bottom: 100px;
+}
+
+.photo_review_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.photo_review_inner h2 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.photo_review_inner li {
+    width: 217px;
+    border: 1px solid #efefef;
+    float: left;
+    margin-right: 25px;
+}
+
+.photo_review_inner li:last-child {
+    margin-right: 0;
+}
+
+.review_head img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.review_content {
+    padding: 10px 7px;
+}
+
+.review_id {
+    margin-top: 5px;
+    color: #aaa;
+    border-bottom: 1px solid #efefef;
+}
+
+.review_product {
+    padding: 2px 7px 10px 7px;
+}
+
+.review_product img {
+    width: 48px;
+    object-fit: contain;
+    border: 1px solid #efefef;
+    float: left;
+    margin-right: 10px;
+}
+
+.review_product_name {
+    margin-top: 8px;
+    color: #aaa;
+}
+/* photo_review 영역 종료 */
+
+/* card_area 영역 시작 */
+.card_area {
+    margin-bottom: 100px;
+}
+
+.card_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.big_card {
+    margin-right: 12px;
+}
+
+.card_area_inner li {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 7px;
+}
+/* card_area 영역 종료 */
