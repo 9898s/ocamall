@@ -44,3 +44,18 @@ body {
 .fr {
     float: right;
 }
+
+/* 오버라이딩 */
+.swiper-pagination-bullet {
+    background-color: #ccc;
+    opacity: .6;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #fff;
+    opacity: 1;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #333;
+}

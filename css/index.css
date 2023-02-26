@@ -7,10 +7,11 @@
 .main_banner_inner {
     width: 1200px;
     margin: 0 auto;
+    background-color: red;
 }
 
 .main_banner_inner img {
-    width: 100%;
+    width: 1200px;
     object-fit: contain;
 }
 /* main_banner 영역 종료 */
@@ -85,7 +86,7 @@
 
 .product_inner ul li {
     width: 272.5px;
-    margin: 0 30px 50px 0;
+    margin: 0 36px 50px 0;
     float: left;
 }
 
@@ -156,11 +157,25 @@
 /* focus_on 영역 시작 */
 .focus_on {
     margin-bottom: 100px;
+    position: relative;
+    min-width: 1200px;
 }
 
 .focus_on_inner {
     width: 1200px;
     margin: 0 auto;
+}
+
+.focus_on .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 180px;
+}
+
+.focus_on .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: 180px;
 }
 
 .focus_on_inner h2 {
@@ -202,13 +217,27 @@
 }
 
 .focus_on li:hover img {
-    transform: scale(1.02);
+    opacity: .8;
 }
 /* focus_on 영역 종료 */
 
 /* photo_review 영역 시작 */
 .photo_review {
     margin-bottom: 100px;
+    position: relative;
+    min-width: 1200px;
+}
+
+.photo_review .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    left: 180px;
+}
+
+.photo_review .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    right: 180px;
 }
 
 .photo_review_inner {
@@ -286,7 +315,7 @@
 }
 
 .big_card {
-    margin-right: 12px;
+    margin-right: 28px;
     overflow: hidden;
 }
 
@@ -303,6 +332,10 @@
     margin-right: 12px;
     margin-bottom: 7px;
     overflow: hidden;
+}
+
+.card_area_inner li:nth-child(2n) {
+    margin-right: 0;
 }
 
 .card_area_inner li img {
@@ -328,7 +361,11 @@
 
 .brand_slide_inner li {
     float: left;
-    margin-right: 100px;
+    margin-right: 90px;
     padding: 10px 0;
+}
+
+.brand_slide_inner li:last-child {
+    margin-right: 0;
 }
 /* brand_slide 영역 종료 */

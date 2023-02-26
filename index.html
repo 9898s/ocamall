@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>오캠몰 - 인덱스</title>
 
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" type="text/css">
   <link rel="stylesheet" href="css/reset.css" type="text/css">
   <link rel="stylesheet" href="css/font.css" type="text/css">
   <link rel="stylesheet" href="css/common.css" type="text/css">
@@ -15,6 +16,8 @@
   <link rel="stylesheet" href="css/footer.css" type="text/css">
 
   <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -103,11 +106,21 @@
       <!-- header_box_02 영역 종료 -->
 
       <div class="header_box_03">
-        <div class="header_box_03_inner clearfix">
-          <ul>
-            <li>
+        <div class="swiper header_box_03_inner">
+          <ul class="swiper-wrapper clearfix">
+            <li class="swiper-slide">
               <a href="#">
                   텐트 VR 신세계, 듀랑고로 만나세요.
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                  테스트1
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                  테스트2
               </a>
             </li>
           </ul>
@@ -119,16 +132,40 @@
     <!-- main_contents 영역 시작 -->
     <div class="main_contents">
       <!-- main_banner 영역 시작 -->
-      <div class="main_banner">
-        <div class="main_banner_inner">
-          <ul>
-            <li>
-              <a href="#">
-                <img src="images/mainbanner_20230203_PC.jpg" alt="배너">
-              </a>
-            </li>
-          </ul>
+      <div class="swiper main_banner">
+        <div class="swiper-wrapper main_banner_inner">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/mainbanner_20230203_PC.jpg" alt="배너">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/220921_main_sleeping_pc.jpg" alt="배너">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/event_0714.jpg" alt="배너">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/event_0721.jpg" alt="배너">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/0708vr_pc.jpg" alt="배너">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="images/PC1.jpg" alt="배너">
+            </a>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
       <!-- main_banner 영역 종료 -->
 
@@ -559,12 +596,12 @@
       
       <!-- focus_on 영역 시작 -->
       <section class="focus_on">
-        <div class="focus_on_inner">
+        <div class="swiper focus_on_inner">
           <h2>
             <span>focus on</span>
           </h2>
-          <ul class="clearfix">
-            <li>
+          <ul class="swiper-wrapper clearfix">
+            <li class="swiper-slide">
               <a href="#">
                 <div class="focus_on_img_area">
                   <img src="images/focuson_01.jpg" alt="가볍게 떠나는 캠핑">
@@ -573,19 +610,46 @@
                 <p>듀랑고 에어/헬리녹스/몽벨/카코컨테이너</p>
               </a>
             </li>
-            <li>
+            <li class="swiper-slide">
               <a href="#">
                 <div class="focus_on_img_area">
-                  <img src="images/focuson_01.jpg" alt="가볍게 떠나는 캠핑">
+                  <img src="images/focuson_02.jpg" alt="가볍게 떠나는 캠핑">
                 </div>
                 <h3><strong>가볍게 떠나는 캠핑</strong></h3>
                 <p>듀랑고 에어/헬리녹스/몽벨/카코컨테이너</p>
               </a>
             </li>
-            <li>
+            <li class="swiper-slide">
               <a href="#">
                 <div class="focus_on_img_area">
-                  <img src="images/focuson_01.jpg" alt="가볍게 떠나는 캠핑">
+                  <img src="images/focuson_03.jpg" alt="가볍게 떠나는 캠핑">
+                </div>
+                <h3><strong>가볍게 떠나는 캠핑</strong></h3>
+                <p>듀랑고 에어/헬리녹스/몽벨/카코컨테이너</p>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="focus_on_img_area">
+                  <img src="images/focuson_04.jpg" alt="가볍게 떠나는 캠핑">
+                </div>
+                <h3><strong>가볍게 떠나는 캠핑</strong></h3>
+                <p>듀랑고 에어/헬리녹스/몽벨/카코컨테이너</p>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="focus_on_img_area">
+                  <img src="images/focuson_05.jpg" alt="가볍게 떠나는 캠핑">
+                </div>
+                <h3><strong>가볍게 떠나는 캠핑</strong></h3>
+                <p>듀랑고 에어/헬리녹스/몽벨/카코컨테이너</p>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="focus_on_img_area">
+                  <img src="images/focuson_06.jpg" alt="가볍게 떠나는 캠핑">
                 </div>
                 <h3><strong>가볍게 떠나는 캠핑</strong></h3>
                 <p>듀랑고 에어/헬리녹스/몽벨/카코컨테이너</p>
@@ -593,6 +657,8 @@
             </li>
           </ul>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </section>
       <!-- focus_on 영역 종료 -->
 
@@ -926,13 +992,13 @@
 
       <!-- photo_review 영역 시작 -->
       <section class="photo_review">
-        <div class="photo_review_inner">
+        <div class="swiper photo_review_inner">
           <h2>
             <span>photo review</span>
           </h2>
 
-          <ul class="clearfix">
-            <li>
+          <ul class="swiper-wrapper clearfix">
+            <li class="swiper-slide">
               <a href="#">
                 <div class="review_head">
                   <img src="images/230109113318.jpg" alt="리뷰">
@@ -954,7 +1020,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="swiper-slide">
               <a href="#">
                 <div class="review_head">
                   <img src="images/230109113318.jpg" alt="리뷰">
@@ -976,7 +1042,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="swiper-slide">
               <a href="#">
                 <div class="review_head">
                   <img src="images/230109113318.jpg" alt="리뷰">
@@ -998,7 +1064,7 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="swiper-slide">
               <a href="#">
                 <div class="review_head">
                   <img src="images/230109113318.jpg" alt="리뷰">
@@ -1020,7 +1086,117 @@
                 </div>
               </a>
             </li>
-            <li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="review_head">
+                  <img src="images/230109113318.jpg" alt="리뷰">
+                  <div class="review_content">
+                    <p class="review_text">
+                      역시 겨울에는 우레탄창이 진리죠 ^^
+                      반대창도 해야할거 같아요 ㅎㅎ
+                    </p>
+                    <p class="review_id">
+                      sscc****/네이버
+                    </p>
+                  </div>
+                </div>
+                <div class="review_product clearfix">
+                  <img src="images/0240030006503.jpg" alt="">
+                  <p class="review_product_name">
+                    [듀랑고]TPU패널창(캐빈와이드 L) #
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="review_head">
+                  <img src="images/230109113318.jpg" alt="리뷰">
+                  <div class="review_content">
+                    <p class="review_text">
+                      역시 겨울에는 우레탄창이 진리죠 ^^
+                      반대창도 해야할거 같아요 ㅎㅎ
+                    </p>
+                    <p class="review_id">
+                      sscc****/네이버
+                    </p>
+                  </div>
+                </div>
+                <div class="review_product clearfix">
+                  <img src="images/0240030006503.jpg" alt="">
+                  <p class="review_product_name">
+                    [듀랑고]TPU패널창(캐빈와이드 L) #
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="review_head">
+                  <img src="images/230109113318.jpg" alt="리뷰">
+                  <div class="review_content">
+                    <p class="review_text">
+                      역시 겨울에는 우레탄창이 진리죠 ^^
+                      반대창도 해야할거 같아요 ㅎㅎ
+                    </p>
+                    <p class="review_id">
+                      sscc****/네이버
+                    </p>
+                  </div>
+                </div>
+                <div class="review_product clearfix">
+                  <img src="images/0240030006503.jpg" alt="">
+                  <p class="review_product_name">
+                    [듀랑고]TPU패널창(캐빈와이드 L) #
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="review_head">
+                  <img src="images/230109113318.jpg" alt="리뷰">
+                  <div class="review_content">
+                    <p class="review_text">
+                      역시 겨울에는 우레탄창이 진리죠 ^^
+                      반대창도 해야할거 같아요 ㅎㅎ
+                    </p>
+                    <p class="review_id">
+                      sscc****/네이버
+                    </p>
+                  </div>
+                </div>
+                <div class="review_product clearfix">
+                  <img src="images/0240030006503.jpg" alt="">
+                  <p class="review_product_name">
+                    [듀랑고]TPU패널창(캐빈와이드 L) #
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#">
+                <div class="review_head">
+                  <img src="images/230109113318.jpg" alt="리뷰">
+                  <div class="review_content">
+                    <p class="review_text">
+                      역시 겨울에는 우레탄창이 진리죠 ^^
+                      반대창도 해야할거 같아요 ㅎㅎ
+                    </p>
+                    <p class="review_id">
+                      sscc****/네이버
+                    </p>
+                  </div>
+                </div>
+                <div class="review_product clearfix">
+                  <img src="images/0240030006503.jpg" alt="">
+                  <p class="review_product_name">
+                    [듀랑고]TPU패널창(캐빈와이드 L) #
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="swiper-slide">
               <a href="#">
                 <div class="review_head">
                   <img src="images/230109113318.jpg" alt="리뷰">
@@ -1044,6 +1220,8 @@
             </li>
           </ul>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </section>
       <!-- photo_review 영역 종료 -->
 
@@ -1084,6 +1262,11 @@
       <div class="brand_slide">
         <div class="brand_slide_inner">
           <ul class="clearfix">
+            <li>
+              <a href="#">
+                <img src="images/brand_09_hilleberg.jpg" alt="hilleberg">
+              </a>
+            </li>
             <li>
               <a href="#">
                 <img src="images/brand_09_hilleberg.jpg" alt="hilleberg">
