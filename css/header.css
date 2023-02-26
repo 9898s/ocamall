@@ -1,3 +1,4 @@
+/* header_box_01 영역 시작 */
 .header_box_01 {
     width: 100%;
     border-bottom: 1px solid #efefef;
@@ -17,7 +18,6 @@
     overflow: hidden;
     /* background-color: lightblue; */
 }
-
 /* header_logo_area 영역 종료 */
 
 /* header_search_area 영역 시작 */
@@ -54,21 +54,21 @@
     top: 25%;
     right: 10px;
     background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
 }
-
 /* header_search_area 영역 종료 */
 
-/* header_gnb_area 영역 시작 */
-.header_gnb_area li {
+/* header_glb_area 영역 시작 */
+.header_glb_area li {
     float: left;
     margin: 22px 0 0 25px;
 }
 
-.header_gnb_area .basket {
+.header_glb_area .basket {
     position: relative;
 }
 
-.header_gnb_area .basket_count {
+.header_glb_area .basket_count {
     position: absolute;
     background-color: #000;
     color: #fff;
@@ -78,5 +78,53 @@
     bottom: -5px;
     right: -5px;
 }
+/* header_glb_area 영역 종료 */
+/* header_box_01 영역 종료 */
 
+/* header_box_02 영역 시작 */
+.header_box_02 {
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+}
+
+.header_box_02_inner {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+/* all_menu_box 영역 시작 */
+.all_menu_box {
+    width: 55px;
+    text-align: center;
+    line-height: 40px;
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    padding-top: 10px;
+    cursor: pointer;
+}
+/* all_menu_box 영역 종료 */
+
+/* header_gnb_area 영역 시작 */
+.header_gnb_area {
+    font-size: 17px;
+}
+
+.header_gnb_area li {
+    float: left;
+    width: 143px;
+}
+
+.header_gnb_area li a {
+    display: inline-block;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.header_gnb_area li:hover {
+    border-bottom: 1px solid #000;
+}
 /* header_gnb_area 영역 종료 */
+/* header_box_02 영역 종료 */
