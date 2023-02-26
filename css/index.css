@@ -52,6 +52,11 @@
 
 .main_category_inner li img {
     margin-top: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.main_category_inner li:hover img {
+    opacity: .5;
 }
 /* main_category 영역 종료 */
 
@@ -182,6 +187,7 @@
 
 .focus_on_inner li img {
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
 }
 
 .focus_on h3 {
@@ -193,6 +199,10 @@
 .focus_on p {
     text-align: center;
     font-size: 13px;
+}
+
+.focus_on li:hover img {
+    transform: scale(1.02);
 }
 /* focus_on 영역 종료 */
 
@@ -220,10 +230,15 @@
     border: 1px solid #efefef;
     float: left;
     margin-right: 25px;
+    transition: all 0.2s ease-in-out;
 }
 
 .photo_review_inner li:last-child {
     margin-right: 0;
+}
+
+.photo_review_inner li:hover {
+    opacity: .8;
 }
 
 .review_head img {
@@ -272,11 +287,48 @@
 
 .big_card {
     margin-right: 12px;
+    overflow: hidden;
+}
+
+.big_card img {
+    transition: all 0.2s ease-in-out;
+}
+
+.big_card:hover img {
+    transform: scale(1.05);
 }
 
 .card_area_inner li {
     float: left;
     margin-right: 12px;
     margin-bottom: 7px;
+    overflow: hidden;
+}
+
+.card_area_inner li img {
+    transition: all 0.2s ease-in-out;
+}
+
+.card_area_inner li:hover img {
+    transform: scale(1.05);
 }
 /* card_area 영역 종료 */
+
+/* brand_slide 영역 시작 */
+.brand_slide {
+    margin-bottom: 100px;
+}
+
+.brand_slide_inner {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.brand_slide_inner li {
+    float: left;
+    margin-right: 100px;
+    padding: 10px 0;
+}
+/* brand_slide 영역 종료 */

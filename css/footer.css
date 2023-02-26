@@ -13,6 +13,10 @@ footer a {
     color: #888;
 }
 
+footer a:hover {
+    color: #1c1c1c;
+}
+
 .footer_inner {
     width: 1200px;
     margin: 0 auto;
