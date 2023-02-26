@@ -1,0 +1,99 @@
+footer {
+    background-color: #f4f4f4;
+    font-size: 12px;
+    color: #888;
+    line-height: 20px;
+}
+
+footer a {
+    font-size: 12px;
+    line-height: 20px;
+    color: #888;
+}
+
+.footer_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 30px 0;
+}
+
+/* footer_area_01 영역 시작 */
+.footer_area_01 {
+    /* background-color: red; */
+    float: left;
+}
+
+.footer_area_logo {
+    margin-bottom: 30px;
+}
+
+.footer_list {
+    margin-bottom: 30px;
+}
+
+.footer_list li {
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid #ddd;
+}
+
+.footer_list li:first-child {
+    padding-left: 0;
+}
+
+.footer_list li:last-child {
+    border-right: none;
+}
+
+.footer_title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+/* footer_area_01 영역 종료 */
+
+/* footer_area_02 영역 시작 */
+.footer_area_02 {
+    margin-left: 250px;
+}
+
+.customer_info {
+    margin-bottom: 30px;
+}
+
+.customer_phone {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffb300;
+}
+/* footer_area_02 영역 종료 */
+
+/* footer_area_03 영역 시작 */
+.bank_info {
+    margin-bottom: 30px;
+}
+
+.bank_account {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffb300;
+}
+
+.notice li a {
+    display: block;
+    width: 226px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* footer_area_03 영역 종료 */
+
+.copyright {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
