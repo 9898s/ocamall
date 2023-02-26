@@ -126,3 +126,22 @@
 }
 /* header_gnb_area 영역 종료 */
 /* header_box_02 영역 종료 */
+
+/* header_box_03 영역 시작 */
+.header_box_03 {
+    background-color: #07554c;
+}
+
+.header_box_03_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header_box_03_inner li a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+/* header_box_03 영역 종료 */
