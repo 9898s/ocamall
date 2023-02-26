@@ -1,3 +1,4 @@
+/* main_banner 영역 시작 */
 .main_banner {
     height: 661px;
     background-image: url(../images/mainBnner_BG_20221201.jpg);
@@ -12,6 +13,7 @@
     width: 100%;
     object-fit: contain;
 }
+/* main_banner 영역 종료 */
 
 /* main_category 영역 시작 */
 .main_category {
