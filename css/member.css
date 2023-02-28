@@ -24,7 +24,7 @@
 .member_page {
     /* background-color: lightgreen; */
     border: 1px solid #efefef;
-    padding-bottom: 5px;
+    padding: 10px 0 3px 0;
 }
 
 /* login_area 영역 시작 */
