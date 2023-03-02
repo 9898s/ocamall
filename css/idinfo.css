@@ -44,7 +44,13 @@
     width: 100%;
     height: 165px;
     color: #666;
-    text-align: left;
+    border: none;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.privercy_contract textarea:focus {
+    outline: none;
 }
 
 .privercy_chk {
