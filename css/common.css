@@ -21,6 +21,10 @@ legend {
     display: none;
 }
 
+caption {
+    display: none;
+}
+
 body {
     font-size: 12px;
     color: #1c1c1c;
