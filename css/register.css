@@ -1,0 +1,90 @@
+.register_area {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.register_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0 70px 0;
+    /* background-color: blue; */
+}
+
+.register_area_inner h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.form_inner {
+    width: 800px;
+    margin: 70px auto 0 auto;
+    /* background-color: #000; */
+}
+
+.form_inner ul {
+    /* background-color: red; */
+}
+
+.form_inner li {
+    width: 100%;
+    padding-left: 10px;
+    height: 48px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    /* background-color: blue; */
+}
+
+.form_inner li:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.form_inner li input {
+    width: 100%;
+    line-height: 24px;
+    margin-top: 10px;
+    border: none;
+}
+
+.form_inner li input[type=radio] {
+    margin-top: 15px;
+}
+
+.form_inner li input:focus {
+    outline: none;
+}
+
+.form_inner li.gender input {
+    width: auto;
+}
+
+.notice {
+    margin-top: 10px;
+    color: #666;
+}
+
+.register_btn_area {
+    margin-top: 20px;
+}
+
+.btn_black {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #231f20;
+    background: #231f20;
+    height: 58px;
+    font-size: 16px;
+    line-height: 58px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn_black:hover {
+    background-color: #fff;
+    color: #231f20;
+}
