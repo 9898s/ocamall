@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.findpwd_area {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.findpwd_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0 70px 0;
+    /* background-color: lightblue; */
+}
+
+.findpwd_area_inner h2 {
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #202020;
+    line-height: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #202020;
+}
+
+.findpwd_page {
+    /* background-color: lightgreen; */
+    border: 1px solid #efefef;
+    padding: 10px 0 3px 0;
+}
+
+/* findid_area 영역 시작 */
+.findid_area {
+    /* background-color: blanchedalmond; */
+    float: left;
+    width: 50%;
+    padding: 0 90px;
+    margin: 30px 0;
+    border-right: 1px solid #efefef;
+}
+
+.findid_area .findid_name {
+    margin-bottom: 8px;
+}
+
+.findid_area .findid_btn_area {
+    margin-top: 19px;
+}
+
+.findid_chk {
+    margin-top: 27px;
+    margin-bottom: 10px;
+}
+/* findid_area 영역 종료 */
+
+/* findpwd2_area 영역 시작 */
+.findpwd2_area {
+    /* background-color: beige; */
+    float: right;
+    width: 50%;
+    padding: 0 90px;
+    margin: 30px 0;
+}
+
+.findpwd2_area .findpwd_id {
+    margin-bottom: 8px;
+}
+
+.findpwd2_area .findpwd_btn_area {
+    margin-top: 19px;
+}
+
+.findpwd_chk {
+    margin-bottom: 10px;
+}
+/* findpwd2_area 영역 종료 */
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding-left: 10px;
+    height: 48px;
+    border: 1px solid #ddd;
+}
+
+input:focus {
+    outline: none;
+}
+
+.page_title {
+    font-size: 18px;
+    color: #363636;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.page_explanation {
+    font-size: 11px;
+    margin: 22px 0 15px 0;
+    color: #adadad;
+}
+
+.btn_black {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #231f20;
+    background: #231f20;
+    height: 58px;
+    font-size: 16px;
+    line-height: 58px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn_black:hover {
+    background-color: #fff;
+    color: #231f20;
+}
+
+.btn_white {
+    display: inline-block;
+    width: 100%;
+    color: #231f20;
+    text-align: center;
+    border: 1px solid #231f20;
+    background: #fff;
+    height: 58px;
+    font-size: 16px;
+    line-height: 58px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn_white:hover {
+    background-color: #231f20;
+    border: 1px solid #231f20;
+    color: #fff;
+}
