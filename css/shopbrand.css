@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+.shop_brand_area {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.shop_brand_area_inner {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.shop_brand_area_inner h2 {
+    padding: 80px 0 60px;
+    font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+
+.category_area li {
+    float: left;
+}
+
+.category_area li a {
+    display: block;
+    margin: 0 13.7px 10px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    width: 138px;
+    line-height: 48px;
+    border: 1px solid #efefef;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.category_area li:nth-child(8n) a {
+    margin-right: 0;
+}
+
+.category_area li a:hover {
+    background-color: #231f20;
+    border: 1px solid #231f20;
+    color: #fff;
+}
+
+.item_info {
+    margin-top: 30px;
+    /* background-color: blueviolet; */
+}
+
+.product_inner {
+    margin-top: 20px;
+    /* background-color: forestgreen; */
+}
+
+.product_inner ul li {
+    width: 273px;
+    margin: 0 36px 50px 0;
+    float: left;
+}
+
+.product_inner ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.product_image img {
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+}
+
+.brand_title {
+    margin: 13px 0;
+}
+
+.product_hashtag {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product_price {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.discount_percent {
+    position: absolute;
+    color: #f00;
+    top: 20px;
+    left: 0;
+}
+
+.price_discount {
+    display: block;
+    text-decoration: line-through;
+    color: #ddd;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.product_basket {
+    padding: 5px 6px;
+    display: inline-block;
+    border-right: 1px solid #efefef;
+}
+
+.product_basket img {
+    padding-top: 1px;
+}
+
+.product_icon {
+    margin-top: 7px;
+}
+
+.product_review {
+    padding-left: 10px;
+}
+
+.paging {
+    padding: 20px 0;
+    text-align: center;
+    /* background-color: beige; */
+}
+
+.paging a {
+    display: inline-block;
+    padding: 0;
+    margin-right: -4px;
+    width: 38px;
+    height: 38px;
+    font-size: 13px;
+    color: #000;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #efefef;
+}
+
+.paging a:hover {
+    background-color: #231f20;
+    border: 1px solid #231f20;
+    color: #fff;
+}
+
+strong {
+    font-size: 13px;
+}
